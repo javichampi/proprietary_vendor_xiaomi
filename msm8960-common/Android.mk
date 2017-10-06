@@ -31,6 +31,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+<<<<<<< HEAD
 LOCAL_MODULE := libqmi
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/lib/libqmi.so
@@ -51,6 +52,8 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+=======
+>>>>>>> parent of 21aff14... Another fix
 LOCAL_MODULE := libqti-perfd-client
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/vendor/lib/libqti-perfd-client.so
